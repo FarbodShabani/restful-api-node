@@ -53,7 +53,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    "mongodb+srv://saina:puma1999sh@cluster0.riyzl.mongodb.net/restApi?retryWrites=true&w=majority"
+    ""
   )
   .then(() =>{
      const server = app.listen("2828")
